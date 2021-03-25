@@ -83,10 +83,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. The first one is the global window, when we do console this. it will be the window
+    2. implicit - when we call this. in function, it is refering anything to the left Object
+    3. explicit - when we use .call or .apply 
+    4. new binding  -  when we create an object by constructer function.
   */
   
   
